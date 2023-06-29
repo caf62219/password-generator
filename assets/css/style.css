@@ -1,15 +1,18 @@
+
 :root {
   --gray: #c0c7cf;
   --white: hsl(0, 0%, 100%);
   --blackish: hsl(206, 17%, 28%); 
 }
 
+/*universal selectors*/
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
 
+/*Elemental selectors*/
 html,
 body,
 .wrapper {
@@ -23,6 +26,7 @@ body {
   background-color: #f9fbfd;
 }
 
+/*class selectors*/
 .wrapper {
   padding-top: 30px;
   padding-left: 20px;
@@ -106,6 +110,7 @@ button[disabled] {
   float: right;
 }
 
+/*id selectors*/
 #password {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -127,6 +132,7 @@ button[disabled] {
   overflow: hidden;
 }
 
+/*media queries*/
 @media (max-width: 690px) {
   .btn {
     font-size: 1rem;
