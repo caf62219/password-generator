@@ -33,6 +33,7 @@ body {
   padding-right: 20px;
 }
 
+/*Includes styling for the header/title of the page*/
 .header {
   text-align: center;
   padding: 20px;
@@ -40,6 +41,7 @@ body {
   color: var(--blackish);
 }
 
+/*Includes styling for the section card that includes generate password and the text area for the password*/
 .card {
   background-color: var(--white);
   border-radius: 5px;
@@ -81,10 +83,8 @@ body {
   display: block;
   clear: both;
 }
-.check-box {
-  display: flex;
-  flex-direction: column;}
 
+  /*refers to the button Generate password and it's styling*/
   .btn {
   border: none;
   background-color: hsl(360, 91%, 36%);
@@ -111,6 +111,7 @@ button[disabled] {
 }
 
 /*id selectors*/
+/*Refers to the area where the text or password will generate*/
 #password {
   -webkit-appearance: none;
   -moz-appearance: none;

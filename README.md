@@ -9,18 +9,17 @@
     
 # Installation
 
-    Follow the following URL to the website: 
-
+    Follow the following URL to the website: https://caf62219.github.io/password-generator/ 
+    
 # Usage
 <img src="./assets/images/screenshot%20password%20generator.PNG" alt="screenshot of password generator page with a question regarding length" width="600px" />
    
-- Each question regarding desire to include uppercase, lowercase, numbers and/or symbol characters will show up as a pop up window.
--
+    - Each question regarding desire to include uppercase, lowercase, numbers and/or symbol characters will show up as a pop up window.
 
 # Credits
-    Donnie Rawlings: https://github.com/drawlin22/HW-Module-1
+    Donnie Rawlings: https://github.com/drawlin22/
     Received assistance from Tutor Neil Dhand.
-    Received assistance from TA Jehyun Jung with randomizing the characters of the password.
+    Received assistance from TA Jehyun Jung and Phind.com with randomizing the characters of the password after they were chosen.
 
 
 # License

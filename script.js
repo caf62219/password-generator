@@ -7,24 +7,28 @@ var lower = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q"
 var numb = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0];
 var symb = ["!","@","#","$","%","^","&","*","(",")","=","+","-","_",];
 var bank = "";
+
 //function to get a random uppercase letter
 function getUpper() {
   var confirmUpper = Math.floor(Math.random() * upper.length);
   var randomUpper = upper[confirmUpper];
   return randomUpper;
 }
+
 //function to get a random lower case letter
 function getLower() {
   var confirmLower = Math.floor(Math.random() * lower.length);
   var randomLower = lower[confirmLower];
   return randomLower;
 }
+
 //function to get a random number
 function getNumber() {
   var confirmNumber = Math.floor(Math.random() * numb.length);
   var randomNumber = numb[confirmNumber];
   return randomNumber;
 }
+
 //function to get a random symbol
 function getSymbol() {
   var confirmSymbol = Math.floor(Math.random() * symb.length);
@@ -43,12 +47,13 @@ function generatePassword() {
   if (parseLength < 8 || parseLength > 128) {
     return "Invalid must be 8-128 characters in length";
   }
-//prompts for the user
+
+  //prompts for the user
   var upperCase = window.confirm("Click ok if you want uppercase characters?");
   var lowerCase = window.confirm("Click ok if you want lowercase characters?");
   var numbers = window.confirm("Click ok if you want numbers?");
   var symbols = window.confirm("Click ok if you want symbols?");
-  //return (parseLength, upperCase, lowerCase, numbers, symbols);
+  
 
   //what the computer does based on the clicks on upper, lower, numbers and symbols
   if (upperCase === true) {
