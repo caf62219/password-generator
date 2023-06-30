@@ -42,11 +42,17 @@ function generatePassword() {
   
   //determines the length of the password and what to do if it is an invalid length
   var length = window.prompt("How long do you want your password(8-128)?");
+  
+  if (!length){
+    return "Invalid must be 8-128 characters in length";
+  }
+  
   var parseLength = parseInt(length);
 
   if (parseLength < 8 || parseLength > 128) {
     return "Invalid must be 8-128 characters in length";
   }
+  
 
   //prompts for the user
   var upperCase = window.confirm("Click ok if you want uppercase characters?");
